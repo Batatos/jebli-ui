@@ -3,6 +3,7 @@ import { StyleSheet, Text, View, StatusBar } from 'react-native';
 import { Provider } from 'react-native-paper';
 import StoreList from './StoreList';
 import AppbarComp from './AppbarComp';
+import StoreCardList from './StoreCardList';
 import { Constants } from 'expo';
 
 export default class MainScreen extends Component{
@@ -11,7 +12,7 @@ export default class MainScreen extends Component{
         return(
             <View style={styles.container}>
                 <AppbarComp style={styles.appBarStyle}/>
-                <StoreList style={styles.storeListStyle}/>
+                <StoreCardList style={styles.storeListStyle}/>
             </View>
         );
     }

@@ -1,11 +1,15 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import MainScreen from './components/MainScreen';
+import HomeScreen from './views/HomeScreen';
+import LoginScreen from './views/LoginScreen';
+import AppContainer from './routes';
 
 export default function App() {
   return (
-    <MainScreen/>
-  );
+    // <HomeScreen/>
+    // <LoginScreen/>
+    <AppContainer/>
+    );
 }
 
 const styles = StyleSheet.create({

@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, StatusBar } from 'react-native';
-import { Provider } from 'react-native-paper';
-import StoreList from './StoreList';
-import AppbarComp from './AppbarComp';
-import StoreCardList from './StoreCardList';
+import StoreList from '../components/StoreList';
+import AppbarComp from '../components/AppbarComp';
+import StoreCardList from '../components/StoreCardList';
 import { Constants } from 'expo';
 
 export default class MainScreen extends Component{
